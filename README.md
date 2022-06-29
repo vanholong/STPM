@@ -44,7 +44,7 @@ sequenceDB_size: the size of the sequence database
 
 Example: python3 MU.py -i data/SymbolicDBRE.csv -o MUResult/MU -s 8 -d 7 -n 1460
 
-### Run approximate STPM
+### 3. Run approximate STPM
 python3 ASTPM.py -i path_input -o path_output -imi path_MI -imu path_MU -maxper maxPeriod_threshold -minden minDensity_threshold -minsr minSeason_threshold -e epsilon -mindist minDistance -maxdist maxDistance -mps max_patternLength
 
 path_input: path of sequence database
