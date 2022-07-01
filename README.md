@@ -39,7 +39,7 @@ path_input: path of symbolic database
 path_output: path of output file contains MI values  
 
 Example: 
-```
+``` 
 python3 MI.py -i data/SymbolicDBRE.csv -o MIResult/MI
 ```
 
