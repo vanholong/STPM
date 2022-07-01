@@ -30,7 +30,7 @@ python3 ESTPM.py -i data/SequenceDBRE.csv -o result/ -maxper 8 -minden 7 -minsr 
 ```
 
 ## To run A-STPM
-### 1. Compute Mutual Information
+### 1. Compute Mutual Information  
 ```
 python3 MI.py -i path_input -o path_output
 ```
