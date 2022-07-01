@@ -10,7 +10,9 @@ Very large time series are increasingly available from an ever wider range of Io
 - sklearn 0.22.2 (or later)
 
 ## To run E-STPM 
+```
 python3 ESTPM.py -i path_input -o path_output -maxper maxPeriod_threshold -minden minDensity_threshold -minsr minSeason_threshold -e epsilon -mindist minDistance -maxdist maxDistance -mps max_patternLength
+```
 
 path_input: path of sequence database  
 path_output: path of folder contains output  
