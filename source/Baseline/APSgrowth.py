@@ -3,7 +3,7 @@ from BaseLine.Model import Utils
 import argparse
 import os
 
-parser = argparse.ArgumentParser(description='Temporal Association Rule')
+parser = argparse.ArgumentParser(description='Baseline')
 parser.add_argument('-name', '--name', help='Name of experiment', default='Experiment')
 parser.add_argument('-i', '--input', help='input path', required=True)
 parser.add_argument('-o', '--output', help='output path', required=True)
